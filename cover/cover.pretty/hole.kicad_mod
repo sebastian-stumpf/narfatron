@@ -1,0 +1,18 @@
+(footprint "hole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
+  (tags "mounting hole 2.2mm no annular m2 din965")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -2.9) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6ede84aa-f9a3-4751-b268-c958cc9f44dd)
+  )
+  (fp_text value "hole" (at 0 2.9) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 03908763-1a56-407b-8b6f-3536ab9b9a11)
+  )
+  (fp_circle (center 0 0) (end 1.07 0)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp b2cb80ca-5019-488b-b35f-58a72d8941ad))
+  (fp_circle (center 0 0) (end 2.15 0)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp c6e9b602-be4e-4bf7-8e4a-d582e259b1af))
+)
